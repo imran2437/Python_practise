@@ -1,0 +1,10 @@
+my_string = "Hello, world!"
+substring = "world"
+
+index = my_string.find(substring)
+
+if index != -1:
+    print(f"Substring '{substring}' found at index {index}.")
+else:
+    print(f"Substring '{substring}' not found in the string.")
+#The find() method of strings can be used to find the index of the first occurrence of a substring.

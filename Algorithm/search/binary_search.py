@@ -1,5 +1,6 @@
 def binary_search(arr, target):
     left, right = 0, len(arr) - 1
+    #left, right = len(arr) - 1, 0  #same as upper line
 
     while left <= right:
         mid = (left + right) // 2  # Calculate the middle index
