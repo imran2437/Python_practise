@@ -1,0 +1,62 @@
+In Python, an immutable data type is a type of object whose state or value cannot be modified after it is created. Immutable objects are safe from unintended changes, which can be useful in various programming scenarios. Here are some common immutable data types in Python:
+
+    int (Integer): Integers are whole numbers, and they are immutable. For example:
+
+    python
+
+x = 5
+
+float (Float): Floating-point numbers represent real numbers and are also immutable. For example:
+
+python
+
+pi = 3.14159
+
+str (String): Strings are sequences of characters and are immutable. Once you create a string, you cannot change its characters. For example:
+
+python
+
+name = "Alice"
+
+tuple: Tuples are ordered collections of elements, and they are immutable. Once you create a tuple, you cannot add, remove, or change elements in it. For example:
+
+python
+
+coordinates = (3, 4)
+
+frozenset: Frozensets are sets that are immutable. You cannot add or remove elements from a frozenset once it is created. For example:
+
+python
+
+frozen_set = frozenset({1, 2, 3})
+
+bool (Boolean): Boolean values True and False are immutable.
+
+python
+
+flag = True
+
+NoneType (None): The None object represents the absence of a value or a null value. It is immutable.
+
+python
+
+empty_value = None
+
+bytes and bytearray: Bytes and byte arrays are used to store binary data and are immutable and mutable, respectively. Bytes objects are immutable, while bytearray objects are mutable.
+
+python
+
+bytes_data = b'Hello'
+
+Enum: Enums created using the enum module are also considered immutable. They allow you to define a set of symbolic names (members) bound to unique values.
+
+python
+
+    from enum import Enum
+
+    class Color(Enum):
+        RED = 1
+        GREEN = 2
+        BLUE = 3
+
+Immutable data types are useful when you want to ensure that data remains constant, especially in situations where you don't want the data to be accidentally modified. This immutability provides benefits in terms of predictability and safety in your code.
