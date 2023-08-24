@@ -1,0 +1,12 @@
+In Python, integers are immutable objects, and when you assign a variable to a new integer value, a new object is created in memory to store that value. Therefore, in your example:
+
+python
+
+i = 6
+i = 5
+
+The variable i initially holds the integer value 6, and then it is reassigned to hold the integer value 5. These two integer values, 5 and 6, are distinct objects with their own separate memory locations.
+
+So, the memory location of 5 and 6 in this case is not the same. Each integer is stored in its own memory location, and reassigning i to a different value creates a new integer object.
+
+In Python, immutability means that once an object is created, its value cannot be changed. When you reassign a variable to a new value, you're actually creating a new object in memory to hold that new value, and the old object is no longer referenced (and can be subject to garbage collection if there are no other references to it).

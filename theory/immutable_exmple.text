@@ -1,4 +1,12 @@
-In Python, an immutable data type is a type of object whose state or value cannot be modified after it is created. Immutable objects are safe from unintended changes, which can be useful in various programming scenarios. Here are some common immutable data types in Python:
+In Python, an immutable data type is a type of object whose state or value cannot be modified after it is created. Immutable objects are safe from unintended changes, which can be useful in various programming scenarios. Here are some 
+
+
+Examples of Immutable Data Types: Integers, floats, strings, tuples, frozensets, booleans, etc.
+Mutable and immutability is in context of Memory location,address
+
+
+
+common immutable data types in Python:
 
     int (Integer): Integers are whole numbers, and they are immutable. For example:
 

@@ -6,3 +6,5 @@ print(my_tuple[0])  # Prints 1
 
 # Unpacking
 a, b, c = my_tuple
+print(a)
+print(type(my_tuple))
