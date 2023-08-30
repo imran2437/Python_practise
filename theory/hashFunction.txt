@@ -1,0 +1,1 @@
+In the context of dictionaries and sets in Python, the built-in hash() function plays a crucial role in determining the index where key-value pairs are stored in the underlying hash table, ensuring efficient lookup and retrieval of values by key.
